@@ -174,9 +174,9 @@ def convert_docs_to_pdf(source_folder, output_folder, password_log_path, mapping
                     print(f"Converted and encrypted '{file}' to '{pdf_path}' with password: {password}")
 
 
-SOURCE = "/Users/adityaramadhan/python/pdfco/source"
-OUTPUT = "/Users/adityaramadhan/python/pdfco/output"
-PASSWORD_LOG_PATH = "/Users/adityaramadhan/python/pdfco/passwords.txt"
-MAPPING_FILE = "/Users/adityaramadhan/python/pdfco/mappings.txt"
+SOURCE = "source"
+OUTPUT = "output"
+PASSWORD_LOG_PATH = "passwords.txt"
+MAPPING_FILE = "mappings.txt"
 convert_docs_to_pdf(SOURCE, OUTPUT, PASSWORD_LOG_PATH, MAPPING_FILE)
 
